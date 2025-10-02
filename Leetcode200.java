@@ -8,7 +8,7 @@ class Solution {
         }
         System.out.print(numIslands(grid))
     }
-    public int numIslands(char[][] grid) {
+    public static int numIslands(char[][] grid) {
         int m=grid.length;
         int n=grid[0].length;
         int c=0;

@@ -3,7 +3,7 @@ class Solution {
         String s="abcabcbb";
         System.out.print(lengthOfLongestSubstring(s));
     }
-    public int lengthOfLongestSubstring(String s) {
+    public static int lengthOfLongestSubstring(String s) {
         int[] hash=new int[256];
         int l=0,r=0,maxlen=0,n=s.length(),l=0;
         for(int i=0;i<256;i++){

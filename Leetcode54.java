@@ -2,7 +2,7 @@ class Solution {
     public static void main(String[] args){
         int[][] matrix={{1,2,3,4},{5,6,7,8},{9,10,11,12}}
     }
-    public List<Integer> spiralOrder(int[][] arr) {
+    public static List<Integer> spiralOrder(int[][] arr) {
         List<Integer> list=new ArrayList<>();
        int m=arr.length, n=arr[0].length;
        int minr=0,maxr=arr.length-1;
